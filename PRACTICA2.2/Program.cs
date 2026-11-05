@@ -62,7 +62,7 @@ void CSV_XML()
  
     peliculas = Filtrar(peliculas);
  
-    Console.Write("Ruta para guardar el XML: ");
+    Console.Write("Ruta para guardar el XML: (Ponle nombre al XML al final)");
     string rutaXML = Console.ReadLine().Trim();
  
     string carpetaXML = Path.GetDirectoryName(rutaXML);
